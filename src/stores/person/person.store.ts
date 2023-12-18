@@ -28,7 +28,7 @@ export const usePersonStore = create<PersonState & Actions>()(
   devtools(
     persist(storeApi, {
       name: "person-storage",
-      storage: firebaseStorage,
+      // storage: firebaseStorage,
     })
   )
 );
